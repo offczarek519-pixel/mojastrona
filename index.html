@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ZMIEŃ: tytuł widoczny na karcie przeglądarki -->
+  <title>Kosmiczna Przystań – nocne obserwacje nieba</title>
+  <style>
+    /* ===== KOLORY – zmień je, aby strona była „Twoja” ===== */
+    :root {
+      --tlo: #0b1026;        /* tło strony */
+      --karta: #1a2140;      /* tło sekcji */
+      --akcent: #facc15;     /* kolor wyróżnień i przycisku */
+      --tekst: #e2e8f0;      /* kolor tekstu */
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--tlo);
+      color: var(--tekst);
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(135deg, #312e81, #7c3aed);
+      color: white;
+    }
+
+    header h1 { margin: 0 0 10px; font-size: 2.4rem; }
+    header p  { margin: 0; font-size: 1.2rem; opacity: 0.9; }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      background: var(--karta);
+      border-radius: 14px;
+      padding: 20px 28px;
+      margin-bottom: 20px;
+    }
+
+    h2 { color: var(--akcent); margin-top: 0; }
+
+    ul li { margin-bottom: 6px; }
+
+    .przycisk {
+      display: inline-block;
+      background: var(--akcent);
+      color: #0b1026;
+      padding: 12px 26px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .przycisk:hover { opacity: 0.85; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- ZMIEŃ: nazwa Twojej strony lub wymyślonej firmy -->
+    <h1>Kosmiczna Przystań</h1>
+    <p>Wymyślona firma, która organizuje nocne obserwacje nieba</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>O firmie</h2>
+      <!-- ZMIEŃ: opisz swoją firmę lub zainteresowania w 2–3 zdaniach. Nie podawaj żadnych danych osobowych! -->
+      <p>Kosmiczna Przystań to miejsce dla wszystkich, którzy lubią patrzeć w gwiazdy.
+         Zabieramy teleskopy tam, gdzie niebo jest najciemniejsze, i pokazujemy planety, Księżyc oraz odległe galaktyki.</p>
+      <p>Ta strona powstała na lekcji informatyki i została opublikowana za darmo w GitHub Pages.</p>
+    </section>
+
+    <section>
+      <h2>Co oferujemy</h2>
+      <!-- ZMIEŃ: wpisz własne zainteresowania lub usługi firmy -->
+      <ul>
+        <li>Nocne pokazy nieba przez teleskop</li>
+        <li>Warsztaty fotografii gwiazd dla początkujących</li>
+        <li>Mapy nieba i kalendarz zjawisk astronomicznych</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Zobacz więcej</h2>
+      <p>Chcesz dowiedzieć się, jak działa hosting, z którego korzysta ta strona?</p>
+      <!-- ZMIEŃ (opcjonalnie): adres, do którego prowadzi przycisk -->
+      <a class="przycisk" href="https://pages.github.com/" target="_blank" rel="noopener">Poznaj GitHub Pages</a>
+    </section>
+  </main>
+
+  <footer>
+    <!-- ZMIEŃ: rok i nazwa strony (bez danych osobowych) -->
+    © 2026 Kosmiczna Przystań · Strona wykonana na lekcji informatyki
+  </footer>
+
+</body>
+</html>
